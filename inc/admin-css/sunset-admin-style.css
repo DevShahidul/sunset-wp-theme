@@ -1,0 +1,12 @@
+/*
+@package sunsettheme
+
+    ===============================
+        Admin page style
+    =============================== */
+
+.sunset-sidebar-preview,.sunset-general-form{display: inline-block; float: left;}
+.sunset-sidebar-preview{margin-right: 20px; min-width: 280px; background-color: #1f1f1f; padding: 40px 30px;}
+.sunset-sidebar, .sidebar-name{text-align: center; color: #ffffff;}
+.sidebar-profile-image{width: 120px; height: 120px; margin: 0 auto; clear: both; overflow: hidden; border-radius: 50%; background-size: cover; background-repeat: no-repeat; background-position: center center;}
+.sidebar-profile-image img{max-width: 100%;}

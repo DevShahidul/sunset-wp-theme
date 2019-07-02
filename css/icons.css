@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'sunset-icon';
+  src:  url('../fonts/sunset-icon.eot?vtoavo');
+  src:  url('../fonts/sunset-icon.eot?vtoavo#iefix') format('embedded-opentype'),
+    url('../fonts/sunset-icon.ttf?vtoavo') format('truetype'),
+    url('../fonts/sunset-icon.woff?vtoavo') format('woff'),
+    url('../fonts/sunset-icon.svg?vtoavo#sunset-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sunset-icon{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sunset-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-audio:before {
+  content: "\e900";
+}
+.icon-chevron-left:before {
+  content: "\e901";
+}
+.icon-chevron-right:before {
+  content: "\e902";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-comment:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-link:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-loading:before {
+  content: "\e906";
+  color: #ccc;
+}
+.icon-logo:before {
+  content: "\e907";
+}
+.icon-menu:before {
+  content: "\e908";
+}
+.icon-pencil:before {
+  content: "\e909";
+}
+.icon-pics:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-search:before {
+  content: "\e90b";
+  color: #bcbcbc;
+}
+.icon-share:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-tag:before {
+  content: "\e90d";
+  color: #929292;
+}
+.icon-video:before {
+  content: "\e90e";
+  color: #fff;
+}
